@@ -1,0 +1,70 @@
+@media screen and (max-width: 100px) {
+  container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+img {
+  display: flex;
+  width: 30%;
+  height: auto;
+  padding: 1%;
+}
+container {
+    display: flex;
+}
+h3 {
+  font-family: 'Rubik Marker Hatch';
+  padding-top: 2%;
+  font-size: 550%;
+  text-align: center;
+}
+p {
+  font-size: 200%;
+  font-family: "Covered By Your Grace";
+  text-align: center;
+  margin: 2%;
+}
+nav {
+  color: #caedca;
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, serif;
+}
+header, footer {
+    background-color: #3e5364;
+    color: #DAD7CD;
+    font-size: 80%;
+    padding: 1%;
+    display: block; 
+    margin: 2% auto;
+    flex-direction: column;
+    Justify-content: center;   
+}
+
+a:link {
+  color: #54858c;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visted {
+  color: #caedca;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #77aba7;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: #caedca;
+}
+button {
+  color: #ffffff;
+  background-color: #77aba7;
+  border: 1% #301994;
+}
+body, html {
+    background-color: #bbd6d4;
+}

@@ -1,0 +1,82 @@
+@media screen and (max-width: 500px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+nav {
+  color: #eccfa8;
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, serif;
+}
+
+body, html {
+    margin: 0%;
+    padding: 1%;
+    font-family: Georgia, serif;
+    background-color: #eccfa8;
+}
+p {
+  padding-right: 2%;
+  font-size: 200%;
+  font-family: "Varela Round", sans-serif;
+}
+intro {
+  flex: auto;
+  display: block;
+  background-image: url("Images/Kathmandy.jpg");
+  background-size: cover;
+  font-family: "Boldonse", system-ui;
+  font-size: 300%;
+  text-align: center;
+  padding-bottom: 1%;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    background-image: "Images/Kathmandy.jpg";
+}
+
+header, footer {
+    background-color: #c4974d;
+    color: #DAD7CD;
+    font-size: 80%;
+    padding: 1%;
+    display: block; 
+    margin: 2% auto;
+    flex-direction: column;
+    Justify-content: space-around;   
+}
+
+img {
+  display: flex;
+  max-width: 50%;
+  height: auto;
+  padding: 2%;
+}
+
+a:link {
+  color: #f9e4ca;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visted {
+  color: #b0766a;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #543128;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: #f9e4ca;
+}
+button {
+  color: #c4974d;
+  background-color: #543128;
+  border: 1% #ac6545;
+}
